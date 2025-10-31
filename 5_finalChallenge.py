@@ -17,3 +17,25 @@
 # Well, try to do it on your own, and if it gets complicated, don’t worry, we will solve it together in the next lecture.
 
 # Cheers and good luck.
+
+# ----------------------------------------
+# Week 2 Python Challenge: Beer Name Generator
+# ----------------------------------------
+
+# Welcome message
+print(" Welcome to the Beer Name Generator! ")
+print("Let's help your friend find the perfect name for their new beer.\n")
+
+# Ask two questions
+word1 = input("What's your favorite color? ")
+word2 = input("What's your favorite animal? ")
+
+# Combine the two answers to create the beer name
+beer_name = word1 + " " + word2
+
+# Display the final result with quotes and style
+print("\nHere's your new beer name!")
+print('Your beer shall be called "' + beer_name + '"! 🍻')
+
+# Optional: fun message on the next line
+print("\nCheers to the new brand!")
