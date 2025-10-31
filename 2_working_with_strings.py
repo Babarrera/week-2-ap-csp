@@ -88,34 +88,34 @@ phrase3 = "Supercagifragilstic"
 # # Output: HELLO WORLD!
 
 
-# # ----------------------------------------
-# # 7. Strings: Advanced Concepts
-# # ----------------------------------------
+# ----------------------------------------
+# 7. Strings: Advanced Concepts
+# ----------------------------------------
 
-# # Creating Strings: use single or double quotes
-# greeting1 = 'Hello'
-# greeting2 = "Hi there"
+# Creating Strings: use single or double quotes
+greeting1 = 'Hello'
+greeting2 = "Hi there"
 
-# # Printing Strings
-# print(greeting1)
-# print(greeting2)
+# Printing Strings
+print(greeting1)
+print(greeting2)
 
-# # ----------------------------------------
-# # String Methods
-# # ----------------------------------------
+# ----------------------------------------
+# String Methods
+# ----------------------------------------
 
-# sentence = "Python is fun to learn"
+sentence = "Python is fun to learn"
 
-# # .split(): Splits the string into a list of words
-# words = sentence.split()
-# print("Split result:", words)
+# .split(): Splits the string into a list of words
+words = sentence.split()
+print("Split result:", words)
 
-# # .format(): Allows inserting values into strings using {}
-# name = "Marvin"
-# age = 35
-# intro = "My name is {} and I am {} years old.".format(name, age)
-# print(intro)
+# .format(): Allows inserting values into strings using {}
+name = "Marvin"
+age = 35
+intro = "My name is {} and I am {} years old.".format(name, age)
+print(intro)
 
-# # You can also use f-strings (Python 3.6+)
-# intro_fstring = f"My name is {name} and I am {age} years old."
-# print(intro_fstring)
+# You can also use f-strings (Python 3.6+)
+intro_fstring = f"My name is {name} and I am {age} years old."
+print(intro_fstring)
